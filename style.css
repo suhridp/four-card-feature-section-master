@@ -1,0 +1,96 @@
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-Medium.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins ;
+    /* border: 1px solid black; */
+}
+body{
+    background-color: hsl(0, 0%, 96%);
+}
+header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4.5vh;
+}
+svg{
+    position: relative;
+    left:168px;
+    top:8px;
+}
+
+header h1{
+    font-size: 1.45rem;
+    font-weight: 100;
+}
+header p{
+    /* width: 45vw; */
+    padding: 1rem 1.85rem 1rem 1.85rem;
+    
+
+}
+p{
+    color:hsl(229, 6%, 66%);
+
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main p{
+    font-size: .8rem;
+    padding-top: .75rem;
+}
+.one ,.two, .three,.four{
+    width: 16rem;
+    height: 150px;
+    /* margin:1rem; */
+    padding: 1.2rem;
+    border-radius: 7.5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.two, .three{
+    margin :0rem 0rem 1.4rem 0rem;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.one{
+    border-top: 7px solid hsl(180, 62%, 55%) ;
+}
+.two{
+    
+    border-top: 7px solid hsl(0, 78%, 62%) ;
+}
+.three{
+    
+    border-top: 7px solid hsl(34, 97%, 64%) ;
+}
+.four{
+    
+    border-top: 7px solid hsl(212, 86%, 64%);
+}
+@media (max-width:300px) {
+    .box{
+        margin:259px;
+    }   
+}
+@media (min-width:653px) and (max-width:947px) {
+   main {
+    display: flex;
+    flex-direction: column;        
+    }
+    
+}
