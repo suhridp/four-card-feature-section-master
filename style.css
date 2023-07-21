@@ -10,6 +10,7 @@
 }
 body{
     background-color: hsl(0, 0%, 96%);
+    
 }
 header{
     text-align: center;
@@ -81,6 +82,11 @@ main p{
 .four{
     
     border-top: 7px solid hsl(212, 86%, 64%);
+}
+@media (max-height:400px){
+    body{
+        height:120vh;
+    }
 }
 @media (max-width:300px) {
     .box{
